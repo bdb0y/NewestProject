@@ -29,5 +29,6 @@ public class Main extends HttpServlet {
     System.out.println(fileSize / ((finishedTime - currentTime) / 1000));
     resp.getWriter().println("The file size is: " + fileSize + Charset.defaultCharset());
     resp.getWriter().println(fileSize / ((finishedTime - currentTime) / 1000));
+    //This is the kinda thing i do during my free time at home!
   }
 }

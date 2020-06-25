@@ -9,8 +9,11 @@
         <module name="helloworld" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="helloworld" target="7" />
+    <bytecodeTargetLevel target="8">
+      <module name="helloworld" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
   </component>
 </project>
